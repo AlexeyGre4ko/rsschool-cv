@@ -1,4 +1,4 @@
 
 # rsschool-cv
-[cv](https://alexeygre4ko.github.io/rsschool-cv/cv)
-[cv](https://alexeygre4ko.github.io/rsschool-cv/)
+[travel](https://rolling-scopes-school.github.io/AlexeyGre4ko-JSFEPRESCHOOL2022Q2/travel)
+
