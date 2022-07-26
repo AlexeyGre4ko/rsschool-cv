@@ -1,0 +1,1179 @@
+@font-face {
+    font-family: 'Aleo';
+     src: url("fonts/Aleo/Aleo-Regular.ttf");
+     font-weight: 700;
+   }
+   @font-face {
+    font-family: 'Aleo-bolt';
+     src: url("fonts/Aleo/Aleo-Bold.ttf");
+     font-weight: 700;
+   }
+   @font-face {
+    font-family: 'Aleo-italic';
+     src: url("fonts/Aleo/Aleo-Italic.ttf");
+     font-weight: 700;
+   }
+  
+   @font-face {
+    font-family: 'Magra';
+     src: url("fonts/Magra/Magra-Bold.ttf");
+     font-weight: 600;
+   }
+  
+   @font-face {
+    font-family: 'Red Hat Text';
+     src: url("fonts/RedHatText/RedHatText-Regular.ttf");
+     font-weight: 500;
+   }
+
+    body {
+        width: 100%;
+    }                                   
+.header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/garrett-parker-DlkF4-dbCOU-unsplash-1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 768px;
+    box-sizing: border-box;
+}
+.header-high {
+    display: flex;
+    width: 100%;
+    height: 12%;
+    max-height: 90px;
+    left: 0px;
+    top: 0px;
+    align-items: center; 
+    background-color: rgba(242, 120, 92, 0.7);
+    }
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+        }
+    .nav-link {
+        text-decoration: none;
+        color: white;
+        font-family: 'Red Hat text';
+        font-size: 16px;
+            }
+
+.portal-logo {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Magra';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    margin-left: 23px;
+    }
+
+    .logo-travel {
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        }
+.login {
+    flex-basis: 23%;
+    display: flex;
+    justify-content: center;
+    }
+    .button-login { 
+        background: #0D606F;
+        color: #FFFFFF;
+        width: 103px;
+        height: 41px;
+        border-radius: 10px;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        border: none;
+        align-items: center;
+    }
+    .header-low {
+        display: flex;
+        flex-direction: column;
+        width: 62%; 
+        height: 113%;  
+        margin-top: -2.4%;
+        margin-left: 8.3%; 
+        box-sizing: border-box;
+        }
+    .explore {
+        color: #FFFFFF;
+        font-family: 'Aleo-bolt';
+        font-style: normal;
+        font-size: 80px;
+        font-weight: 700 ;
+        line-height: 96px;
+        }
+        .personal-recomends{
+            color: #FFFFFF;
+            font-family: 'Aleo-italic';
+            font-style: italic;
+            font-size: 21px;
+            margin-top: -4.2%;
+            }
+        .input-butt {
+            display: flex;
+            background: rgba(255, 255, 255, 0.7);
+            height: 100%;
+            border-radius: 16px;
+            margin-top: 3%;
+            width: 100%;
+           
+        }
+        .button-start {
+        background: #0D606F;
+        color: #FFFFFF;
+        width: 25%;
+        height: 60%;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 2%;
+        margin-left: 9%;
+        }
+        
+        .input-st {
+            width: 560px;
+            height: 24px;
+            margin-left: 7%;
+            margin-top: 4%;
+            border: none;
+            background: transparent;
+            }
+::placeholder {
+    color: #F2785C;
+    font-family: 'Aleo-italic';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.container-body {
+    flex-basis: 47%;
+}
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    }
+.step {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 45px;
+    align-content: space-between;
+        }
+.prefect-trip {
+display: flex;
+font-family: 'Red Hat Text';
+font-weight: bold;
+font-size: 40px;
+color: #F2785C;
+justify-content: center;
+flex-basis: 100%;
+align-items: center; 
+}
+
+.icons {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-left: 14%;
+    }
+.bike {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background: #F2785C;
+    border-radius: 16px;
+    align-items: center; 
+    justify-content: center;
+}
+.dates {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background: #F2785C;
+    border-radius: 16px;
+    align-items: center; 
+    justify-content: center;
+}
+.plane {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background: #F2785C;
+    border-radius: 16px;
+    align-items: center; 
+    justify-content: center;
+}
+.logobike {
+    width: 50;
+    height: 45;
+    color: #FFFFFF;
+}
+.calendar {
+    width: 50;
+    height: 45;
+    color: #FFFFFF;
+}
+.logoplane {
+    width: 50;
+    height: 45;
+    color: #FFFFFF;
+}
+.textlogo {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0D606F;
+    margin-top: 20px;
+    width: 82%;
+    margin-left: 11%;
+}
+.findmore {
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    align-items: center;  
+    }
+.button-findmore {
+   display: flex;
+    width: 228px; 
+    height: 59px;
+    background: #0D606F;
+    border-radius: 10px;
+    font-family: 'Red Hat Text';
+    font-size: 24px;
+    color: white;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+}
+.storie {
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    align-items: center; 
+    width: 335px;
+    height: 53px;
+}
+.tr-stories {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #F2785C;
+}
+
+.popolar{
+    display: flex;
+    flex-basis: 90%;
+    height: 53px;
+    margin-left: 100px;
+}
+.tr-destinations {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #F2785C;
+    margin-left: 355px;
+    
+}
+
+    
+.travel-stories {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1270px;
+    background-color: rgba(255, 255, 255, 0.7);
+    justify-content: center;
+                        }
+    .ts1 {
+        display: flex;
+        align-items: center;
+        height: 250px;
+        width: 90%;
+        margin: 3% 8% 1%;
+        }
+    .river {
+        width: 115%;
+        height: 5%;
+        border-radius: 16px;
+        }
+        .ts1-text {
+            display: flex;
+            flex-direction: column;
+            color: #0D606F;
+            width: 67%;
+            margin: 7%;
+            }
+            .ts1-h3 {
+            font-family: 'Aleo';
+            font-size: 35px;
+        }
+        .ts1-p{
+        font-family: 'Aleo';
+        font-size: 20px;
+        }
+        .ts2 {
+        display: flex;
+        align-items: center;
+        height: 250px;
+        width: 90%;
+        margin: 1% 8%;     
+         }
+        .road {
+        width: 115%;
+        height: 5%;
+        border-radius: 16px;
+            }
+            .ts2-text {
+                display: flex;
+                flex-direction: column;
+                color: #0D606F;
+                width: 67%;
+                margin: 7%;
+             }
+            .ts2-h3 {
+                font-family: 'Aleo';
+                font-size: 35px;
+            }
+            .ts2-p{
+            font-family: 'Aleo';
+            font-size: 20px;
+            }
+
+            .ts3 {
+        display: flex;
+        align-items: center;
+        height: 250px;
+        width: 90%;
+        margin: 1% 8%;
+        }
+            .mountains {
+        width: 115%;
+        height: 5%;
+        border-radius: 16px;
+                }
+                .ts3-text {
+                    display: flex;
+                    flex-direction: column;
+                    color: #0D606F;
+                    width: 67%;
+                    margin: 7%;
+                    }
+                .ts3-h3 {
+                    font-family: 'Aleo';
+                    font-size: 35px;
+                }
+                .ts3-p{
+                font-family: 'Aleo';
+                font-size: 20px;
+                }
+
+                .ts4 {
+        display: flex;
+        align-items: center;
+        height: 250px;
+        width: 90%;
+        margin: 1% 8%;
+                }
+                .journey {
+        width: 115%;
+        height: 5%;
+        border-radius: 16px;
+                    }
+                    .ts4-text {
+            display: flex;
+            flex-direction: column;
+            color: #0D606F;
+            width: 67%;
+            margin: 7%;
+                        }
+                    .ts4-h3 {
+                        font-family: 'Aleo';
+                        font-size: 35px;
+                    }
+                    .ts4-p{
+                    font-family: 'Aleo';
+                    font-size: 20px;
+                    }
+                    .seemore {
+                        display: flex;
+                        justify-content: center;
+                        flex-basis: 100%;
+                        align-items: center;  
+                        }
+                    .button-seemore {
+                       display: flex;
+                        width: 228px; 
+                        height: 59px;
+                        background: #0D606F;
+                        border-radius: 10px;
+                        font-family: 'Red Hat Text';
+                        font-size: 24px;
+                        color: white;
+                        margin: auto;
+                        align-items: center;
+                        justify-content: space-around;
+                        border: none;
+                    }
+                    .cover {
+                        background-image: url(img/Rectangle-33.png);
+                        background-size: 100%;
+                        width: 100%;
+                        height: 1331px;
+                        }
+
+ .footer {
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 60%;
+     }                       
+     .all-rightes {
+        display: flex;
+        font-family: 'Red Hat Text';
+        font-size: 16px;
+        color: white;
+        justify-content: center;
+        flex-basis: 62%;
+    }
+    .insta {
+        Width: 30.85px;
+        Height: 30.85px;
+    }
+    .youtube1 {
+        Width: 28.04px;
+        Height: 22.44px;
+        margin-left: 20px;
+        }
+            .yt {
+                display: flex;
+                height: 29px;
+                width: 32px;
+                justify-content: center;
+                align-items: center;
+                background-image: url(logo/youtube1.png); 
+            }
+    .youtube {
+        Width: 7.01px;
+        Height: 8.41px   
+      
+    }
+
+    .twiter {
+        Width: 31.84px;
+        Height: 25.88px
+    }
+
+
+
+    .icons-footer {
+        display: flex;
+        flex-basis: 11%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .empty {
+        flex-basis: 8%;
+    }
+    .ts1-p {
+        margin-top: -20px;
+    }
+    .ts1-h3 {
+        margin-top: 3px;
+    }
+    .ts2-p {
+        margin-top: -15px;
+    }
+    .ts2-h3 {
+        margin-top: -10px;
+    }
+    .ts3-p {
+        margin-top: -20px;
+    }
+    .ts3-h3 {
+        margin-top: -10px;
+    }
+    .ts4-p {
+        margin-top: -20px;
+    }
+    .ts4-h3 {
+        margin-top: -10px;
+    }
+    .slider {
+        width: 150%;
+        height: 800px;
+       display: flex;
+       margin-top: 50px;
+       margin-left: -300px;
+       justify-content: center;
+       gap: 20px;
+       }
+
+      .slide {
+        width: 55%;
+        height: 800px;
+        }
+        .japan {
+            border-radius: 16px;
+               }
+               .spain {
+                border-radius: 16px;
+                   }
+                   .usa {
+                    border-radius: 16px;
+                       }
+    
+       .wrapper {
+        min-height: 100%;
+        width: 100%;
+        max-width: 1440px;
+        overflow: hidden;
+        }
+       .steps {
+        width: 100%;
+       }
+       @media (max-width: 500px){
+       .explore, .personal-recomends, .container-body, .travel-portal, .login, .all-rightes, .empty {
+           display: none;
+       }
+       }
+      
+       @media (max-width: 500px){
+        .header {
+            background-size: 115%;
+            height: 251px;
+            width: 390px;
+            
+            
+        }
+        }
+
+        @media (max-width: 500px){
+            .header-high {
+                background: linear-gradient(180deg, #0D606F 0%, rgba(13, 96, 111, 0) 100%);
+                height: 70px;
+
+            }
+            }
+            @media (max-width: 500px){
+                .portal-logo {
+                    margin-left: -6%;
+                    margin-top: 50px;
+                }
+
+            }
+ @media (max-width: 500px){
+.input-butt {
+width: 360px;
+height: 50px;
+margin-top: 33%;
+margin-left: -20px;
+}
+}
+@media (max-width: 500px){
+.input-st {
+height: 32%;
+margin-top: 0%;
+width: 200px;
+height: 20px;
+margin-left: 7%;
+font-size: 12px;
+}
+}
+                        
+@media (max-width: 500px){
+.button-start {
+width: 92px;
+height: 30px;
+margin-top: 11px;
+font-size: 11px;
+margin-left: 55px;
+}
+}
+                            
+@media (max-width: 500px){
+::placeholder {
+width: 226px;
+height: 15px;
+margin-top: 10px;
+font-size: 14px;
+}
+}
+                                
+@media (max-width: 500px){
+.prefect-trip {
+margin-top: -27px;
+font-size: 14px;
+}
+}
+
+@media (max-width: 500px){
+.bike, .dates, .plane {
+width: 70px;
+height: 70px;
+}
+}
+                            
+@media (max-width: 500px){
+.icons {
+width: 360px;
+margin-left: 10px;
+margin-top: 20px;
+gap: 30px;
+}
+}
+                                            
+@media (max-width: 500px){
+.logobike {
+width: 35px;
+height: 31.5px;
+}
+}
+                                                
+@media (max-width: 500px){
+.calendar {
+width: 35px;
+height: 35px;
+}
+}
+                                                    
+@media (max-width: 500px){
+.logoplane {
+width: 40px;
+height: 30px;
+}
+}
+                                                        
+@media (max-width: 500px){
+.textlogo {
+font-size: 10px;
+margin-top: 7px;
+margin-left: 10px;
+width: 400px;
+gap: 50px;
+color: #0D606F;
+ }
+}
+                                                           
+@media (max-width: 500px){
+.tr-destinations {
+margin-top: 18px;
+font-size: 14px;
+margin-left: 0px;
+}
+}
+                                                               
+@media (max-width: 500px){
+.slider {
+width: 1250px;
+height: 210px;
+margin-top: 5px;
+margin-left: 10px;
+gap: 30px;
+flex-shrink: 1;
+}
+}
+                                                                    
+@media (max-width: 500px){
+.spain, .japan, .usa {
+width: 360px;
+height: 210px;
+border-radius: 16px;
+}
+}
+                                                                        
+@media (max-width: 500px){
+.button-findmore{
+width: 92px;
+height: 30px;
+font-size: 11px;
+margin-top: -5px;
+gap: 2px;
+}
+}
+@media (max-width: 500px){
+.button-seemore {
+width: 92px;
+height: 30px;
+font-size: 11px;
+margin-top: -25px;
+gap: 0px;
+    }
+    }
+                                                                            
+@media (max-width: 500px){
+.arrow {
+width: 8.75px;
+height: 5.63px;
+}
+}    
+ 
+@media (max-width: 500px){
+.ts1, .ts2, .ts3, .ts4{
+width: 390px;
+height: 140px;
+margin-left: 12px;
+
+}
+}
+@media (max-width: 500px){
+.ts1{
+margin-top: 10px;
+}
+}
+
+@media (max-width: 500px){
+.ts1-h3, .ts2-h3, .ts3-h3, .ts4-h3{
+font-size: 11px;
+font-weight: 700;
+margin-top: 2px;
+}
+}
+
+@media (max-width: 500px){
+.ts1-p, .ts2-p, .ts3-p, .ts4-p{
+font-size: 9px;
+margin-top: -5px;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 9;
+overflow: hidden;
+}
+}
+                                                                                    
+@media (max-width: 500px){
+.tr-stories {
+margin-top: 0px;
+font-size: 14px;
+margin-left: 0px;
+}
+}
+
+@media (max-width: 500px){
+.river, .road, .mountains, .journey {
+width: 155px;
+height: 130px;
+margin-top: 0px;
+margin-left: 0px;
+}
+}  
+
+@media (max-width: 500px){
+.ts1-text, .ts2-text, .ts3-text, .ts4-text {
+margin-left: 5px;
+height: 130px;
+}
+}       
+
+@media (max-width: 500px){
+.travel-stories {
+height: 628px;
+}
+} 
+
+@media (max-width: 500px){
+.cover {
+height: 693px;
+background-size: cover;
+background-repeat: no-repeat;
+}
+} 
+
+@media (max-width: 500px){
+    .icons-footer {
+    width: 150px;
+    margin-right: 125px;
+    margin-top: 15px;
+    gap: 20px;
+    }
+    } 
+
+@media (max-width: 500px){
+.wrapper {
+width: 390px;
+}
+} 
+.popup {
+position: fixed;
+width: 100%;
+height: 100%;
+background-color: rgba(255, 255, 255, 0.3);
+top: 0;
+left: 0;
+opacity: 0;
+visibility: hidden;
+overflow-y: auto;
+overflow-x: hidden;
+transition: all 1s ease 0s;
+}
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+.popup_body {
+min-height: 100%;
+display: flex;
+align-self: center;  
+justify-content: center;
+padding: 30px 10px; 
+}
+.popup_content {
+    background:linear-gradient(177.09deg, #FFFFFF 6.15%, #0D606F 202.69%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    width: 650px;
+    height: 660px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.popup_close {}
+.popup_title {}
+.popup_text {}
+
+.popup_area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0;
+}
+.popup-title {
+width: 51%;
+height: 6%;
+margin-top: -7px;
+}
+.popup_title_text {
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+color: #0D606F;
+}
+.popup_fb {
+    width: 85%;
+    height: 8.6%;
+    background-color: #1877F2;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.fb {
+    width: 23px;
+    height: 23px;
+}
+.ggl {
+    width: 23px;
+    height: 23px; 
+}
+.fb-text{
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color: #FFFFFF;
+}
+.ggl-text{
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color: #0D606F;
+}
+
+
+.popup_google {
+    width: 85%;
+    height: 8.6%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.line_or {
+    width: 85%;
+    height: 40px;
+    display: flex;
+}
+.line_or_text {
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: rgba(13, 96, 111, 0.5);
+margin-top: 29px;
+}
+.mail {
+    width: 85%;
+    height: 17%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.mail_text  {
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color:#0D606F;
+}
+.mail_area {
+    width: 100%;
+    height: 54px;
+    background-color: #FFFFFF;
+    box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08), inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    margin-top: -15px;
+}
+.password {
+    width: 85%;
+    height: 17%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -15px;
+    }
+.password_text {
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color:#0D606F;
+}
+.password_area {
+    width: 100%;
+    height: 54px;
+    background-color: #FFFFFF;
+    box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08), inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    margin-top: -15px;.
+}
+.sign_in {
+    width: 85%;
+    height: 8.6%;
+    background-color: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    margin-top: 0px;
+   }
+.sign_in_text{
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+color: #FFFFFF;
+margin-left: 250px;
+   }
+.forgot {
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+text-decoration-line: underline;
+color: #0D606F;
+text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+margin-left: 210px;
+margin-top: 10px;
+}
+.register {
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+color: rgba(13, 96, 111, 0.5);
+text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+margin-top: 25px;
+margin-left: 167px;
+}
+.line {
+    height: 100px;
+}
+
+.popup_1 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 1s ease 0s;
+    }
+.popup_1:target {
+    opacity: 1;
+    visibility: visible;
+    }
+    .popup_area_1 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0%;
+        left: 0;}
+
+.popup_content_1 {
+    background:linear-gradient(177.09deg, #FFFFFF 6.15%, #0D606F 202.69%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    width: 650px;
+    height: 436px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .popup-title_1 {
+        width: 34%;
+        height: 6%;
+        margin-top: -7px;
+    }
+    .mail_1 {
+        width: 85%;
+        height: 20%;
+        margin-top: 65px;
+        display: flex;
+        flex-direction: column;
+    }
+    .mail_text_1  {
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color:#0D606F;
+        }
+        .mail_area_1 {
+            width: 100%;
+            height: 54px;
+            background-color: #FFFFFF;
+            box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08), inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+            border-radius: 10px;
+            margin-top: -15px;
+        }
+        .password_1 {
+            width: 85%;
+            height: 20%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 7px;
+            }
+            .password_text_1 {
+                font-family: 'Aleo';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color:#0D606F;
+                }           
+.password_area_1 {
+width: 100%;
+height: 54px;
+background-color: #FFFFFF;
+box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08), inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+margin-top: -15px;.
+}  
+.sign_in_1 {
+    width: 85%;
+    height: 13%;
+    background-color: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    margin-top: 22px;
+   }
+   .sign_in_text_1{
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 250px;
+       }
+.line_1 {
+height: 20px;
+   }
+   .hr{
+    width: 560px;
+    color:#0D606F;
+   margin-top: 25px;
+   }
+   .hr_1{
+   width: 560px;
+   color:#0D606F;
+   margin-top: 20px;
+   }
+    .register_1 {
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        color: rgba(13, 96, 111, 0.5);
+        margin-left: 180px;
+        margin-top: 20px;
+         }
+.line_or{
+display: flex;
+gap: 10px;
+}
+.line_2{
+    width: 270px;
+    margin-top: 30px;
+    border-color:#0D606F;
+    }
+
+.slider:hover {
+    transform: translateX(-820px);
+    transition: all 3s;
+} 
+
+.spain:hover{
+    transform: translateX(820px);
+    transition: 3s forwards;
+
+    }
