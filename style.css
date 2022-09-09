@@ -31,7 +31,9 @@ body {
 }
 .main {
   border: 3px solid rgba(140, 148, 148, 0.537);
-}
+    display: flex;
+    flex-wrap: wrap;
+  }
 .footer {
   border: 1px solid rgba(140, 148, 148, 0.537);
 }
@@ -88,15 +90,6 @@ html {
   text-decoration: underline;
 }
 
-.main-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.main-container {
-  display: flex;
-  flex-wrap: wrap;
-  }
   #about{
     width: 50%;
   }
@@ -124,6 +117,9 @@ html {
   position: absolute;
   left: 500px;
   top:130px;
+  width: 180px; 
+  height: 200px;
+
 }
 .container {
 background: url(assets/favicon.ico) no-repeat;
