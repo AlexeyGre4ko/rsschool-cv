@@ -34,7 +34,7 @@ body {
     display: flex;
     flex-wrap: wrap;
   }
-.footer {
+.foot {
   border: 1px solid rgba(140, 148, 148, 0.537);
 }
 
