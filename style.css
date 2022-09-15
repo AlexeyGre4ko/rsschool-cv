@@ -34,7 +34,7 @@ body {
     display: flex;
     flex-wrap: wrap;
   }
-.footer {
+.foot {
   border: 1px solid rgba(140, 148, 148, 0.537);
 }
 
@@ -90,7 +90,7 @@ html {
   text-decoration: underline;
 }
 
-  #about{
+  #about {
     width: 50%;
   }
 
@@ -119,7 +119,6 @@ html {
   top:130px;
   width: 180px; 
   height: 200px;
-
 }
 .container {
 background: url(assets/favicon.ico) no-repeat;
@@ -145,5 +144,4 @@ background-size: 50%;
 
 .name-git {
   font-size: 30px;
-}
-  
+} 
